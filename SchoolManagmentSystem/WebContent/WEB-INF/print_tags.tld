@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+"http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>pt</short-name>
+	<tag>
+		<name>printSubject</name>
+		<tag-class>com.learnersacademy.tagclass.PrintSubject</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+		<name>sublist</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>printClass</name>
+		<tag-class>com.learnersacademy.tagclass.PrintClass</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+		<name>classList</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>printStudent</name>
+		<tag-class>com.learnersacademy.tagclass.PrintStudent</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+		<name>studentList</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>printTeacher</name>
+		<tag-class>com.learnersacademy.tagclass.PrintTeacher</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+		<name>teacherList</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>printReport</name>
+		<tag-class>com.learnersacademy.tagclass.PrintReport</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+		<name>reportList</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
